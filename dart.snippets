@@ -31,3 +31,22 @@ try {
 	${2}
 }
 endsnippet
+snippet cl "class .. {}" b
+class ${1:User} {
+	${2:String} ${3:name}
+}
+endsnippet
+snippet cle "class .. extends .." b
+class ${1:childClass} extends ${2:baseClass} {
+	${3:// ..}
+}
+
+endsnippet
+
+snippet pr "print(${1:...});" b
+print(${1:...});
+endsnippet
+snippet ret "return ${1:...};" b
+return ${1:...};
+endsnippet
+
